@@ -8,7 +8,7 @@ input = input.to_s
 # Aliases desired.
 aliases = [
     'alias server_init="rails server -p  $PORT -b $IP"',
-    'alias routes="c9 config/routes.rb'
+    'alias routes="c9 config/routes.rb"'
 ];
 
 f = File.open(input, 'a')
