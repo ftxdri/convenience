@@ -1,7 +1,7 @@
 # .bashrc additions
 
 # Path to your bashrc
-bashrc = '/home/ubuntu/workspace/bashrc.txt';
+bashrc = '/home/ubuntu/.bashrc';
 
 # Aliases desired.
 aliases = [
