@@ -1,7 +1,9 @@
 # .bashrc additions
 
-# Path to your bashrc
-bashrc = '/home/ubuntu/.bashrc';
+# Set the bashrc path - only argument required for this script.
+puts "Hey there. Write the full file path for your <.bashrc>:"
+input = gets.chomp
+input = input.to_s
 
 # Aliases desired.
 aliases = [
@@ -9,7 +11,7 @@ aliases = [
     'alias routes="c9 config/routes.rb'
 ];
 
-f = File.open(bashrc, 'a')
+f = File.open(input, 'a')
 
 aliases.each do |a|
   f.puts a
